@@ -1,0 +1,13 @@
+jwm.wgbe AD
+     ID                   generated_int    id                            id
+     OWNERID              integer          ownerId                       ownerId
+     ORDERNUMBER          integer          orderNumber                   orderNumber
+     PARENTGROUP          integer          parentGroup                   parentGroup
+     ADTYPE               integer          adType                        adType
+     APPROVAL             char             approval                      approval
+     ADPLACEMENT          char             adPlacement                   adPlacement
+     ADNOTES              char             adNotes                       adNotes
+     STATUS               integer          status                        status
+     PREMIUMPLACEMENT     integer          premiumPlacement              premiumPlacement
+     OPTIONALPLACEMENT    integer          optionalPlacement             optionalPlacement
+     CURRENTSTATEDUEDATE  Date             currentStateDueDate           currentStateDueDate

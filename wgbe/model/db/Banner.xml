@@ -1,0 +1,8 @@
+<table name="BANNER" package="jwm.wgbe.model">
+   <column name="OWNER" type="char" variable="owner" formparameter="owner"/>
+   <column name="LINK" type="char" variable="link" formparameter="link"/>
+   <column name="TARGET" type="char" variable="target" formparameter="target"/>
+   <column name="IMAGE" type="char" variable="image" formparameter="image"/>
+   <column name="DESCRIPTION" type="char" variable="description" formparameter="description"/>
+   <column name="NDX" type="integer" variable="ndx" formparameter="ndx"/>
+</table>

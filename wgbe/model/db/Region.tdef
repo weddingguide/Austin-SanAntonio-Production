@@ -1,0 +1,18 @@
+jwm.wgbe.model REGION
+     NAME                 char             name                          name
+     GROUP                integer          group                         group
+     FEATUREDVENDORGROUPID integer          featuredVendorGroupId        featuredVendorGroupId
+     BUSINESSID           integer          businessId                    businessId
+     TEXASWEDDINGSBUSINESSID integer       texasWeddingsBusinessId        texasWeddingsBusinessId
+     TEXASWEDDINGSGROUP   integer          texasWeddingsGroup             texasWeddingsGroup
+     MOBILEDOMAIN         char             mobileDomain                   mobileDomain
+     FACEBOOK             char             faceBook                       faceBook
+     TWITTER              char             twitter                        twitter
+     MYSPACE              char             mySpace                        mySpace
+     PINTEREST            char             pinterest                      pinterest
+     PHONE                char             phone                          phone
+     EMAIL                char             email                          email
+     VIRTUALBOOKLINK      char             virtualBookLink                virtualBookLink
+     SITESPECIFICATTRIBUTESUBID integer    siteSpecificAttributeSubId     siteSpecificAttributeSubId
+     BLOG                 char             blog                           blog
+     BRIDALEXTRAVAGANZA   char             bridalExtravaganza             bridalExtravaganza

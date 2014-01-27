@@ -1,0 +1,1 @@
+CREATE TABLE BLOG ( BLOG.NAME char );

@@ -1,0 +1,9 @@
+jwm.wgbe BGCONTRACT
+     ID                   generated_int    id                            id
+     OWNERID              integer          ownerId                       ownerId
+     CONTRACTDATE         Date             contractDate                  contractDate
+     CONTRACTTERM         integer          contractTerm                  contractTerm
+     REGIONGROUPID        integer          regionGroupId                 regionGroupId
+     INITIALWGEDITION     integer          initialWGEdition              initialWGEdition
+     FULLMKTPKG           boolinteger      fullMktPkg                    fullMktPkg
+     ADPROD               char             adProd                        adProd

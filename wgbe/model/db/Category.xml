@@ -1,0 +1,7 @@
+<table name="CATEGORY" package="jwm.wgbe.model">
+   <column name="NAME" type="char" variable="name" formparameter="name"/>
+   <column name="KEYWORDS" type="char" variable="keywords" formparameter="keywords"/>
+   <column name="IMAGETAG" type="char" variable="imageTag" formparameter="imageTag"/>
+   <column name="URL" type="char" variable="url" formparameter="url"/>
+   <column name="SELECTEDTEXT" type="char" variable="selectedText" formparameter="selectedText"/>
+</table>

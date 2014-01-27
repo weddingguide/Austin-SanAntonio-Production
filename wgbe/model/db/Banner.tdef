@@ -1,0 +1,7 @@
+jwm.wgbe.model BANNER
+     OWNER                char             owner                         owner
+     LINK                 char             link                          link
+     TARGET               char             target                        target
+     IMAGE                char             image                         image
+     DESCRIPTION          char             description                   description
+     NDX                  integer          ndx                           ndx

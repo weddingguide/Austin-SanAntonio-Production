@@ -1,0 +1,6 @@
+jwm.wgbe.model CATEGORY
+     NAME                 char             name                          name
+     KEYWORDS             char             keywords                      keywords
+     IMAGETAG             char             imageTag                      imageTag
+     URL                  char             url                           url
+     SELECTEDTEXT         char             selectedText                  selectedText

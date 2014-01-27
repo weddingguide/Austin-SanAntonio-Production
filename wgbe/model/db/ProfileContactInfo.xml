@@ -1,0 +1,3 @@
+<table name="PROFILECONTACTINFO" package="jwm.wgbe.model">
+   <column name="ADDRESS" type="char" variable="address" formparameter="address"/>
+</table>

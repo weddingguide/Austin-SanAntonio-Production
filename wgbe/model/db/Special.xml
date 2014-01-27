@@ -1,0 +1,3 @@
+<table name="SPECIAL" package="jwm.wgbe.model">
+   <column name="NAME" type="char" variable="name" formparameter="name"/>
+</table>

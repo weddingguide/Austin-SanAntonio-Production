@@ -1,0 +1,39 @@
+package jwm.wgbe.model;
+ 
+import jwm.db.*;
+import jwm.wgbe.model.db.*;
+import jwm.logger.*;
+import java.io.*;
+import java.sql.*;
+import java.util.*;
+import java.util.logging.*;
+import org.apache.juli.*;
+ 
+public class RegionList extends RegionDBRecordListBase
+{
+ 
+   //====generated===========generated=========generated==========generated=====
+   //====generated===========generated=========generated==========generated=====
+ 
+   public RegionList( DBData aDbData, String criteriaString, String orderString  )
+   {
+      super( aDbData, criteriaString, orderString );
+   }
+ 
+   //====generated===========generated=========generated==========generated=====
+   //====generated===========generated=========generated==========generated=====
+ 
+   public RegionList( DBData aDbData, int aId  )
+   {
+      super( aDbData );
+      buildList( "REGION", "ID = " + Integer.toString(aId) );
+   }
+ 
+   //====generated===========generated=========generated==========generated=====
+   //====generated===========generated=========generated==========generated=====
+ 
+   public RegionList( DBData dbData )
+   {
+      super( dbData );
+   }
+}

@@ -1,0 +1,21 @@
+jwm.wgbe EXHIBITOR
+     ID                   generated_int    id                            id
+     ORDERNUMBER          integer          orderNumber                   orderNumber
+     OWNERID              integer          ownerId                       ownerId
+     PARENTGROUP          integer          parentGroup                   parentGroup
+     BOOTH                char             booth                         booth
+     CORNER               boolinteger      corner                        corner
+     TABLE4FT             integer          table4Ft                      table4Ft
+     TABLE6FT             integer          table6Ft                      table6Ft
+     TABLE8FT             integer          table8Ft                      table8Ft
+     ELECTRICITY          boolinteger      electricity                   electricity
+     CARPET               integer          carpet                        carpet
+     DUEMONEY             char             dueMoney                      dueMoney
+     TOTALMONEY           char             totalMoney                    totalMoney
+     BOOTHMONEY           char             boothMoney                    boothMoney
+     ELECMONEY            char             elecMoney                     elecMoney
+     CARPETMONEY          char             carpetMoney                   carpetMoney
+     TABLEMONEY           char             tableMoney                    tableMoney
+     SHOWSIGN             char             showSign                      showSign
+     MISCMONEY            char             miscMoney                     miscMoney
+     SHOWNOTES            char             showNotes                     showNotes

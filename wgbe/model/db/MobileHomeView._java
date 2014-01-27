@@ -1,0 +1,15 @@
+package jwm.wgbe.model;
+import jwm.wgbe.model.db.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.util.logging.*;
+import org.apache.juli.*;
+ 
+public class MobileHomeView extends MobileHomeViewBase
+{
+ 
+   public MobileHomeView( HttpServletRequest request )
+   {
+      super();
+   }
+}

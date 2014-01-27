@@ -1,0 +1,19 @@
+<table name="REGION" package="jwm.wgbe.model">
+   <column name="NAME" type="char" variable="name" formparameter="name"/>
+   <column name="GROUP" type="integer" variable="group" formparameter="group"/>
+   <column name="FEATUREDVENDORGROUPID" type="integer" variable="featuredVendorGroupId" formparameter="featuredVendorGroupId"/>
+   <column name="BUSINESSID" type="integer" variable="businessId" formparameter="businessId"/>
+   <column name="TEXASWEDDINGSBUSINESSID" type="integer" variable="texasWeddingsBusinessId" formparameter="texasWeddingsBusinessId"/>
+   <column name="TEXASWEDDINGSGROUP" type="integer" variable="texasWeddingsGroup" formparameter="texasWeddingsGroup"/>
+   <column name="MOBILEDOMAIN" type="char" variable="mobileDomain" formparameter="mobileDomain"/>
+   <column name="FACEBOOK" type="char" variable="faceBook" formparameter="faceBook"/>
+   <column name="TWITTER" type="char" variable="twitter" formparameter="twitter"/>
+   <column name="MYSPACE" type="char" variable="mySpace" formparameter="mySpace"/>
+   <column name="PINTEREST" type="char" variable="pinterest" formparameter="pinterest"/>
+   <column name="PHONE" type="char" variable="phone" formparameter="phone"/>
+   <column name="EMAIL" type="char" variable="email" formparameter="email"/>
+   <column name="VIRTUALBOOKLINK" type="char" variable="virtualBookLink" formparameter="virtualBookLink"/>
+   <column name="SITESPECIFICATTRIBUTESUBID" type="integer" variable="siteSpecificAttributeSubId" formparameter="siteSpecificAttributeSubId"/>
+   <column name="BLOG" type="char" variable="blog" formparameter="blog"/>
+   <column name="BRIDALEXTRAVAGANZA" type="char" variable="bridalExtravaganza" formparameter="bridalExtravaganza"/>
+</table>

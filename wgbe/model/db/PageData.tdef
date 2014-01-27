@@ -1,0 +1,9 @@
+jwm.wgbe.model PAGEDATA
+     PAGEDESCRIPTION      char             pageDescription               pageDescription
+     KEYWORDS             char             keywords                      keywords
+     GOOGLEVERIFY         char             googleVerify                  googleVerify
+     BINGVERIFY           char             bingVerify                    bingVerify
+     HOMEPAGEFEATUREDSLIDERINT char        homePageFeaturedSliderInt     homePageFeaturedSliderInt
+     URLPREFIX            char             urlPrefix                     urlPrefix
+     GOOGLEANALYTICS      char             googleAnalytics               googleAnalytics
+     CSSNAME              char             cssName                       cssName

@@ -1,0 +1,8 @@
+jwm.wgbe WGBEWEDDINGPROF
+     GROUPID              integer          groupId                       groupId
+     WEDDINGPROFID        integer          weddingProfId                 weddingProfId
+     SUMMARYTEXT          char             summaryText                   summaryText
+     DESCRIPTION          char             description                   description
+     IMAGE1               char             image1                        image1
+     IMAGE2               char             image2                        image2
+     IMAGE3               char             image3                        image3

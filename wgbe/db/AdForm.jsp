@@ -1,0 +1,12 @@
+  <tr><td>id</td><td><input type=text name='id' id='id' value='<%= theObject.getId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerId</td><td><input type=text name='ownerId' id='ownerId' value='<%= theObject.getOwnerId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>orderNumber</td><td><input type=text name='orderNumber' id='orderNumber' value='<%= theObject.getOrderNumber() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>parentGroup</td><td><input type=text name='parentGroup' id='parentGroup' value='<%= theObject.getParentGroup() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>adType</td><td><input type=text name='adType' id='adType' value='<%= theObject.getAdType() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>approval</td><td><input type=text name='approval' id='approval' value='<%= theObject.getApproval() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>adPlacement</td><td><input type=text name='adPlacement' id='adPlacement' value='<%= theObject.getAdPlacement() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>adNotes</td><td><input type=text name='adNotes' id='adNotes' value='<%= theObject.getAdNotes() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>status</td><td><input type=text name='status' id='status' value='<%= theObject.getStatus() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>premiumPlacement</td><td><input type=text name='premiumPlacement' id='premiumPlacement' value='<%= theObject.getPremiumPlacement() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>optionalPlacement</td><td><input type=text name='optionalPlacement' id='optionalPlacement' value='<%= theObject.getOptionalPlacement() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>currentStateDueDate</td><td><input type=text name='currentStateDueDate' id='currentStateDueDate' value='<%= theObject.getCurrentStateDueDate() %>' size= maxchars=></td></tr></td></tr>
