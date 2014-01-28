@@ -1,0 +1,8 @@
+jwm.entity     CONTACTSTATUS
+     ID                   generated_int    id                            id
+     category             integer          category                      category
+     name                 char             name                          name
+     sortweight           integer          sortWeight                    sortWeight
+     trackContactActivity integer          trackContactActivity          trackContactActivity
+     listContacts         integer          listContacts                  listContacts
+     displayInReport      integer          displayInReport               displayInReport

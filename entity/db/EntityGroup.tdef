@@ -1,0 +1,14 @@
+jwm.entity ENTITYGROUP
+     GROUPNUM             generated_int    groupNum                      groupNum
+     ALIASOF              integer          aliasOf                       aliasOf
+     TYPE                 integer          type                          type
+     NAME                 char(60)         name                          name
+     EXTNAME              char(60)         extName                       extName
+     DESCRIPTION          char(100)        description                   description
+     STATUS               integer          status                        status
+     CATEGORY             integer          category                      category
+     NOTIFYGROUP          integer          notifyGroup                   notifyGroup
+     CREATEDATE           Date             createDate                    createDate
+     LASTUPDATE           timestamp        lastUpdate                    lastUpdate
+     NOTIFYCHANGE         integer          notifyChange                  notifyChange
+     FOLLOWUPSTATUSCACHE  integer          followUpStatusCache           followUpStatusCache

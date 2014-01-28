@@ -1,0 +1,15 @@
+  <tr><td>ownerType</td><td><input type=text name='ownerType' id='ownerType' value='<%= theObject.getOwnerType() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerId</td><td><input type=text name='ownerId' id='ownerId' value='<%= theObject.getOwnerId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>title</td><td><input type=text name='title' id='title' value='<%= theObject.getTitle() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>overview</td><td><input type=text name='overview' id='overview' value='<%= theObject.getOverview() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>scenario</td><td><input type=text name='scenario' id='scenario' value='<%= theObject.getScenario() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>profRole</td><td><input type=text name='profRole' id='profRole' value='<%= theObject.getProfRole() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>teamRole</td><td><input type=text name='teamRole' id='teamRole' value='<%= theObject.getTeamRole() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>actionRequest</td><td><input type=text name='actionRequest' id='actionRequest' value='<%= theObject.getActionRequest() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>reportURL</td><td><input type=text name='reportURL' id='reportURL' value='<%= theObject.getReportURL() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>feedback</td><td><input type=text name='feedback' id='feedback' value='<%= theObject.getFeedback() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>evaluation</td><td><input type=text name='evaluation' id='evaluation' value='<%= theObject.getEvaluation() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>presentationSection</td><td><input type=text name='presentationSection' id='presentationSection' value='<%= theObject.getPresentationSection() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>reportDoc</td><td><input type=text name='reportDoc' id='reportDoc' value='<%= theObject.getReportDoc() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>grade</td><td><input type=text name='grade' id='grade' value='<%= theObject.getGrade() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>createDate</td><td><input type=text name='createDate' id='createDate' value='<%= theObject.getCreateDate() %>' size= maxchars=></td></tr></td></tr>

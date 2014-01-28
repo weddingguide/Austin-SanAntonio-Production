@@ -1,0 +1,13 @@
+  <tr><td>groupNum</td><td><input type=text name='groupNum' id='groupNum' value='<%= theObject.getGroupNum() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>aliasOf</td><td><input type=text name='aliasOf' id='aliasOf' value='<%= theObject.getAliasOf() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>type</td><td><input type=text name='type' id='type' value='<%= theObject.getType() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>name</td><td><input type=text name='name' id='name' value='<%= theObject.getName() %>' size=40 maxchars=60></td></tr></td></tr>
+  <tr><td>extName</td><td><input type=text name='extName' id='extName' value='<%= theObject.getExtName() %>' size=40 maxchars=60></td></tr></td></tr>
+  <tr><td>description</td><td><input type=text name='description' id='description' value='<%= theObject.getDescription() %>' size=40 maxchars=100></td></tr></td></tr>
+  <tr><td>status</td><td><input type=text name='status' id='status' value='<%= theObject.getStatus() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>category</td><td><input type=text name='category' id='category' value='<%= theObject.getCategory() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>notifyGroup</td><td><input type=text name='notifyGroup' id='notifyGroup' value='<%= theObject.getNotifyGroup() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>createDate</td><td><input type=text name='createDate' id='createDate' value='<%= theObject.getCreateDate() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>lastUpdate</td><td><input type=text name='lastUpdate' id='lastUpdate' value='<%= theObject.getLastUpdate() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>notifyChange</td><td><input type=text name='notifyChange' id='notifyChange' value='<%= theObject.getNotifyChange() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>followUpStatusCache</td><td><input type=text name='followUpStatusCache' id='followUpStatusCache' value='<%= theObject.getFollowUpStatusCache() %>' size= maxchars=></td></tr></td></tr>

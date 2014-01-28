@@ -1,0 +1,9 @@
+  <tr><td>id</td><td><input type=text name='id' id='id' value='<%= theObject.getId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerType</td><td><input type=text name='ownerType' id='ownerType' value='<%= theObject.getOwnerType() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerId</td><td><input type=text name='ownerId' id='ownerId' value='<%= theObject.getOwnerId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>segment</td><td><input type=text name='segment' id='segment' value='<%= theObject.getSegment() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>songLength</td><td><input type=text name='songLength' id='songLength' value='<%= theObject.getSongLength() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>song</td><td><input type=text name='song' id='song' value='<%= theObject.getSong() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>artist</td><td><input type=text name='artist' id='artist' value='<%= theObject.getArtist() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>details</td><td><input type=text name='details' id='details' value='<%= theObject.getDetails() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>location</td><td><input type=text name='location' id='location' value='<%= theObject.getLocation() %>' size= maxchars=></td></tr></td></tr>

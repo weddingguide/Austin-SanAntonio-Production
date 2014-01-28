@@ -1,0 +1,11 @@
+<table name="SEGMENTDEF" package="jwm.entity">
+   <column name="ID" type="generated_int" variable="id" formparameter="id"/>
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="NAME" type="char" variable="name" formparameter="name"/>
+   <column name="STATUS" type="integer" variable="status" formparameter="status"/>
+   <column name="NDX" type="integer" variable="ndx" formparameter="ndx"/>
+   <column name="DISPLAYNAME" type="char" variable="displayName" formparameter="displayName"/>
+   <column name="DESCRIPTION" type="char" variable="description" formparameter="description"/>
+   <column name="TYPE" type="integer" variable="type" formparameter="type"/>
+</table>

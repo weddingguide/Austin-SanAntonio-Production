@@ -1,0 +1,15 @@
+<table name="MAILTEMPLATE" package="jwm.entity">
+   <column name="id" type="generated_int" variable="id" formparameter="id"/>
+   <column name="name" type="char" variable="name" formparameter="name"/>
+   <column name="description" type="char" variable="description" formparameter="description"/>
+   <column name="body" type="char" variable="body" formparameter="body"/>
+   <column name="subject" type="char" variable="subject" formparameter="subject"/>
+   <column name="Qualifier" type="char" variable="qualifier" formparameter="qualifier"/>
+   <column name="toStatus" type="char" variable="toStatus" formparameter="toStatus"/>
+   <column name="toFollowup" type="integer" variable="toFollowup" formparameter="toFollowup"/>
+   <column name="statusbatch" type="boolinteger" variable="statusBatch" formparameter="statusBatch"/>
+   <column name="groupbatch" type="boolinteger" variable="groupBatch" formparameter="groupBatch"/>
+   <column name="individual" type="boolinteger" variable="individual" formparameter="individual"/>
+   <column name="preventDuplicates" type="boolinteger" variable="preventDuplicates" formparameter="preventDuplicates"/>
+   <column name="onlyToResponseDue" type="boolinteger" variable="onlyToResponseDue" formparameter="onlyToResponseDue"/>
+</table>

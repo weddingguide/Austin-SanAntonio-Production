@@ -1,0 +1,14 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="ADDRESS" package="jwm.entity" >   <column formparameter="addressId" name="ADDRESSID" type="generated_int" variable="addressId" />
+   <column formparameter="ownerId" name="OWNERID" type="integer" variable="ownerId" />
+   <column formparameter="ownerType" name="OWNERTYPE" type="integer" variable="ownerType" />
+   <column formparameter="addressType" name="ADDRESSTYPE" type="integer" variable="addressType" />
+   <column formparameter="addressLine1" name="ADDRESSLINE1" required="required" size="100" type="char" variable="addressLine1" />
+   <column formparameter="addressLine2" name="ADDRESSLINE2" size="100" type="char" variable="addressLine2" />
+   <column formparameter="addressLine3" name="ADDRESSLINE3" size="100" type="char" variable="addressLine3" />
+   <column formparameter="city" name="CITY" size="50" type="char" variable="city" />
+   <column formparameter="state" name="STATE" size="20" type="char" variable="state" />
+   <column formparameter="country" name="COUNTRY" size="20" type="char" variable="country" />
+   <column formparameter="postalCode" name="POSTALCODE" size="20" type="char" variable="postalCode" />
+</table>

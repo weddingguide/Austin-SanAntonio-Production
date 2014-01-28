@@ -1,0 +1,5 @@
+jwm.entity CONTACT
+     ID                   integer          id                            id
+     NAME                 char             name                          name
+     CREATEDATE           Date             createDate                    createDate
+     LASTUPDATE           timestamp        lastUpdate                    lastUpdate

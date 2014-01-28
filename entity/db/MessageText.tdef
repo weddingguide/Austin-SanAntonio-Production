@@ -1,0 +1,4 @@
+jwm.entity        MESSAGETEXT
+     MSGID                integer          msgId                         msgId
+     LABEL                char             label                         label
+     TEXT                 char             text                          text

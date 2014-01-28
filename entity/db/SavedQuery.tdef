@@ -1,0 +1,8 @@
+jwm.entity SAVEDQUERY
+     QueryId              generated_int    queryId                       queryId
+     Name                 char             name                          name
+     QueryString          char             queryString                   queryString
+     QueryType            integer          queryType                     queryType
+     SortWeight           integer          sortWeight                    sortWeight
+     Selected             integer          selected                      selected
+     View                 char             view                          view

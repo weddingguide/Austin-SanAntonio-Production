@@ -1,0 +1,16 @@
+jwm.entity TERMPROJECTINFO
+     OWNERTYPE              integer          ownerType                     ownerType
+     OWNERID                integer          ownerId                       ownerId
+     TTTLE                  char             title                         title
+     OVERVIEW               char             overview                      overview
+     SCENARIO               char             scenario                      scenario
+     PROFROLE               char             profRole                      profRole
+     TEAMROLE               char             teamRole                      teamRole
+     ACTIONREQUEST          char             actionRequest                 actionRequest
+     REPORTURL              char             reportURL                     reportURL
+     FEEDBACK               char             feedback                      feedback
+     EVALUATION             char             evaluation                    evaluation
+     PRESENTATIONSECTION    integer          presentationSection           presentationSection
+     REPORTDOC              char             reportDoc                     reportDoc
+     GRADE                  char             grade                         grade
+     CREATEDATE             Date             createDate                    createDate

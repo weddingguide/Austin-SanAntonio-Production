@@ -1,0 +1,11 @@
+  <tr><td>id</td><td><input type=text name='id' id='id' value='<%= theObject.getId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>subId</td><td><input type=text name='subId' id='subId' value='<%= theObject.getSubId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>sortWeight</td><td><input type=text name='sortWeight' id='sortWeight' value='<%= theObject.getSortWeight() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerType</td><td><input type=text name='ownerType' id='ownerType' value='<%= theObject.getOwnerType() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerId</td><td><input type=text name='ownerId' id='ownerId' value='<%= theObject.getOwnerId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>name</td><td><input type=text name='name' id='name' value='<%= theObject.getName() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>prompt</td><td><input type=text name='prompt' id='prompt' value='<%= theObject.getPrompt() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>type</td><td><input type=text name='type' id='type' value='<%= theObject.getType() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>cardinality</td><td><input type=text name='cardinality' id='cardinality' value='<%= theObject.getCardinality() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>dateRestricted</td><td><input type=text name='dateRestricted' id='dateRestricted' value='<%= theObject.getDateRestricted() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>userDefined</td><td><input type=text name='userDefined' id='userDefined' value='<%= theObject.getUserDefined() %>' size= maxchars=></td></tr></td></tr>

@@ -1,0 +1,8 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="PHONE" package="jwm.entity" >   <column formparameter="phoneId" name="PHONEID" type="generated_int" variable="phoneId" />
+   <column formparameter="ownerId" name="OWNERID" type="integer" variable="ownerId" />
+   <column formparameter="ownerType" name="OWNERTYPE" type="integer" variable="ownerType" />
+   <column formparameter="phoneNumber" name="PHONENUMBER" required="required" size="20" type="char" variable="phoneNumber" />
+   <column formparameter="phoneNumberType" name="PHONENUMBERTYPE" type="integer" variable="phoneNumberType" />
+</table>

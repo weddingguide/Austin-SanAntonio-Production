@@ -1,0 +1,6 @@
+jwm.entity ATTRIBUTEVERSION
+     ID                     generated_int    id                            id
+     OWNERTYPE              integer          ownerType                     ownerType
+     OWNERID                integer          ownerId                       ownerId
+     NAME                   char             name                          name
+     STATE                  integer          state                         state

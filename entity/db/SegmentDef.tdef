@@ -1,0 +1,10 @@
+jwm.entity SEGMENTDEF
+     ID                   generated_int     id                            id
+     OWNERTYPE            integer          ownerType                     ownerType
+     OWNERID              integer          ownerId                       ownerId
+     NAME                 char             name                          name
+     STATUS               integer          status                        status
+     NDX                  integer          ndx                           ndx
+     DISPLAYNAME          char             displayName                   displayName
+     DESCRIPTION          char             description                   description
+     TYPE                 integer          type                          type

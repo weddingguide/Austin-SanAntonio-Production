@@ -1,0 +1,9 @@
+<table name="EMAIL" package="jwm.entity">
+   <column name="EMAILID" type="generated_int" variable="emailId" formparameter="emailId"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="SUBSCRIBE" type="boolinteger" variable="subscribe" formparameter="subscribe"/>
+   <column name="EMAILADDRESS" type="char" size="120" variable="emailAddress" formparameter="emailAddress" required="required"/>
+   <column name="EMAILADDRESSTYPE" type="integer" variable="emailAddressType" formparameter="emailAddressType"/>
+   <column name="REFKEY" type="char" variable="refKey" formparameter="refKey"/>
+</table>

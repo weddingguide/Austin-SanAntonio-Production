@@ -1,0 +1,9 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="ENTITYGROUP" package="jwm.entity" >   <column formparameter="groupNum" name="GROUPNUM" type="generated_int" variable="groupNum" />
+   <column formparameter="type" name="TYPE" type="integer" variable="type" />
+   <column formparameter="name" name="NAME" size="60" type="char" variable="name" />
+   <column formparameter="description" name="DESCRIPTION" size="100" type="char" variable="description" />
+   <column formparameter="status" name="STATUS" type="integer" variable="status" />
+   <column formparameter="category" name="CATEGORY" type="integer" variable="category" />
+</table>

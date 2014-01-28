@@ -1,0 +1,11 @@
+<table name="HISTORY" package="jwm.entity">
+   <column name="EVENTID" type="generated_int" variable="eventId" formparameter="eventId"/>
+   <column name="EVENTTYPE" type="integer" variable="eventType" formparameter="eventType"/>
+   <column name="DATE" type="timestamp" variable="date" formparameter="date"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="DESCRIPTION" type="char" size="254" variable="description" formparameter="description"/>
+   <column name="COMMENT" type="char" size="254" variable="comment" formparameter="comment"/>
+   <column name="ORIGINATOR" type="char" variable="originator" formparameter="originator"/>
+   <column name="REFERENCE" type="char" variable="reference" formparameter="reference"/>
+</table>

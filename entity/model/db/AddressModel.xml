@@ -1,0 +1,3 @@
+<table name="ADDRESSMODEL" package="jwm.entity.model">
+   <column name="NAME" type="char" variable="name" formparameter="name"/>
+</table>

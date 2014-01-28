@@ -1,0 +1,6 @@
+jwm.entity ENTITYCUSTOMTEXT
+     ENTITYTYPE           integer          entityType                    entityType
+     OBJECTTYPE           integer          objectType                    objectType
+     INSTANCE             integer          instance                      instance
+     LONGNAME             char             longName                      longName
+     SHORTNAME            char             shortName                     shortName

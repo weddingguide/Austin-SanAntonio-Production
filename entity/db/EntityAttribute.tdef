@@ -1,0 +1,12 @@
+jwm.entity ENTITYATTRIBUTE
+     ID                     generated_int    id                            id
+     VERSION                integer          version                       version
+     OWNERTYPE              integer          ownerType                     ownerType
+     OWNERID                integer          ownerId                       ownerId
+     ATTRIBUTEDEFID         integer          attributeDefId                attributeDefId
+     ATTRIBUTEDEFSUBID      integer          attributeDefSubId             attributeDefSubId
+     ATTRIBUTEDATA          char             attributeData                 attributeData
+     NDX                    integer          ndx                           ndx
+     BGNDATE                Date             bgnDate                       bgnDate
+     ENDDATE                Date             endDate                       endDate
+     LASTCHANGE             char             lastChange                    lastChange

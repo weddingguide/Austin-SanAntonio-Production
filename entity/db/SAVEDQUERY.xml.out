@@ -1,0 +1,7 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="SAVEDQUERY" package="jwm.entity" >   <column formparameter="queryId" name="QueryId" type="generated_int" variable="queryId" />
+   <column formparameter="name" name="Name" type="char" variable="name" />
+   <column formparameter="queryString" name="QueryString" type="char" variable="queryString" />
+   <column formparameter="queryType" name="QueryType" type="integer" variable="queryType" />
+</table>

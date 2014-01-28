@@ -1,0 +1,5 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="PERSONEMAILMAP" package="jwm.entity" >   <column formparameter="personId" name="PERSONID" type="integer" variable="personId" />
+   <column formparameter="emailId" name="EMAILID" type="integer" variable="emailId" />
+</table>

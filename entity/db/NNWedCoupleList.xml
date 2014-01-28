@@ -1,0 +1,28 @@
+<table name="NNWEDCOUPLELIST" package="jwm.entity">
+   <column name="STATUS" type="integer" variable="status" formparameter="status"/>
+   <column name="COUPLEID" type="integer" variable="coupleId" formparameter="coupleId"/>
+   <column name="HISEMAILADDRESS" type="char" size="80" variable="hisEmilAddress" formparameter="hisEmilAddress"/>
+   <column name="HISNAME" type="char" size="80" variable="hisName" formparameter="hisName"/>
+   <column name="HEREMAILADDRESS" type="char" size="80" variable="herEmailAddress" formparameter="herEmailAddress"/>
+   <column name="HERNAME" type="char" size="80" variable="herName" formparameter="herName"/>
+   <column name="HISLASTNAME" type="char" size="30" variable="hisLastName" formparameter="hisLastName"/>
+   <column name="HISFIRSTNAME" type="char" size="30" variable="hisFirstName" formparameter="hisFirstName"/>
+   <column name="HERLASTNAME" type="char" size="30" variable="herLastName" formparameter="herLastName"/>
+   <column name="HERFIRSTNAME" type="char" size="30" variable="herFirstName" formparameter="herFirstName"/>
+   <column name="DATEADDED" type="Date" variable="dateAdded" formparameter="dateAdded"/>
+   <column name="DATEREMOVED" type="Date" variable="dateRemoved" formparameter="dateRemoved"/>
+   <column name="WEDDINGDATE" type="Date" variable="weddingDate" formparameter="weddingDate"/>
+   <column name="HISADDRESSLINE1" type="char" size="50" variable="hisAddressLine1" formparameter="hisAddressLine1"/>
+   <column name="HISADDRESSLINE2" type="char" size="50" variable="hisAddressLine2" formparameter="hisAddressLine2"/>
+   <column name="HISADDRESSLINE3" type="char" size="50" variable="hisAddressLine3" formparameter="hisAddressLine3"/>
+   <column name="HERADDRESSLINE1" type="char" size="50" variable="herAddressLine1" formparameter="herAddressLine1"/>
+   <column name="HERADDRESSLINE2" type="char" size="50" variable="herAddressLine2" formparameter="herAddressLine2"/>
+   <column name="HERADDRESSLINE3" type="char" size="50" variable="herAddressLine3" formparameter="herAddressLine3"/>
+   <column name="HISPHONE" type="char" size="20" variable="hisPhone" formparameter="hisPhone"/>
+   <column name="HERPHONE" type="char" size="20" variable="herPhone" formparameter="herPhone"/>
+   <column name="NOTES" type="char" size="250" variable="notes" formparameter="notes"/>
+   <column name="HISWORKPHONE" type="char" size="20" variable="hisWorkPhone" formparameter="hisWorkPhone"/>
+   <column name="HERWORKPHONE" type="char" size="20" variable="herWorkPhone" formparameter="herWorkPhone"/>
+   <column name="HISBIRTHDATE" type="Date" variable="hisBirthDate" formparameter="hisBirthDate"/>
+   <column name="HERBIRTHDATE" type="Date" variable="herBirthDate" formparameter="herBirthDate"/>
+</table>

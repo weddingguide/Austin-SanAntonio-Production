@@ -1,0 +1,6 @@
+<table name="CONTACT" package="jwm.entity">
+   <column name="ID" type="integer" variable="id" formparameter="id"/>
+   <column name="NAME" type="char" variable="name" formparameter="name"/>
+   <column name="CREATEDATE" type="Date" variable="createDate" formparameter="createDate"/>
+   <column name="LASTUPDATE" type="timestamp" variable="lastUpdate" formparameter="lastUpdate"/>
+</table>

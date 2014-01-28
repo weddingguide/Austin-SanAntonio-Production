@@ -1,0 +1,12 @@
+jwm.entity ENTITYATTRIBUTEDEF
+     ID                     integer          id                            id
+     SUBID                  integer          subId                         subId
+     SORTWEIGHT             integer          sortWeight                    sortWeight
+     OWNERTYPE              integer          ownerType                     ownerType
+     OWNERID                integer          ownerId                       ownerId
+     NAME                   char             name                          name
+     PROMPT                 char             prompt                        prompt
+     TYPE                   integer          type                          type
+     CARDINALITY            integer          cardinality                   cardinality
+     DATERESTRICTED         integer          dateRestricted                dateRestricted
+     USERDEFINED            integer          userDefined                   userDefined

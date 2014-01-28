@@ -1,0 +1,27 @@
+jwm.entity NNWEDCOUPLELIST
+     STATUS                 integer         status            status
+     COUPLEID               integer         coupleId          coupleId
+     HISEMAILADDRESS        char(80)        hisEmilAddress    hisEmilAddress
+     HISNAME                char(80)        hisName           hisName
+     HEREMAILADDRESS        char(80)        herEmailAddress   herEmailAddress
+     HERNAME                char(80)        herName           herName
+     HISLASTNAME            char(30)        hisLastName       hisLastName
+     HISFIRSTNAME           char(30)        hisFirstName      hisFirstName
+     HERLASTNAME            char(30)        herLastName       herLastName
+     HERFIRSTNAME           char(30)        herFirstName      herFirstName
+     DATEADDED              Date            dateAdded         dateAdded
+     DATEREMOVED            Date            dateRemoved       dateRemoved
+     WEDDINGDATE            Date            weddingDate       weddingDate
+     HISADDRESSLINE1        char(50)        hisAddressLine1   hisAddressLine1
+     HISADDRESSLINE2        char(50)        hisAddressLine2   hisAddressLine2
+     HISADDRESSLINE3        char(50)        hisAddressLine3   hisAddressLine3
+     HERADDRESSLINE1        char(50)        herAddressLine1   herAddressLine1
+     HERADDRESSLINE2        char(50)        herAddressLine2   herAddressLine2
+     HERADDRESSLINE3        char(50)        herAddressLine3   herAddressLine3
+     HISPHONE               char(20)        hisPhone          hisPhone
+     HERPHONE               char(20)        herPhone          herPhone
+     NOTES                  char(250)       notes             notes
+     HISWORKPHONE           char(20)        hisWorkPhone      hisWorkPhone
+     HERWORKPHONE           char(20)        herWorkPhone      herWorkPhone
+     HISBIRTHDATE           Date            hisBirthDate      hisBirthDate
+     HERBIRTHDATE           Date            herBirthDate      herBirthDate

@@ -1,0 +1,5 @@
+<table name="MESSAGETEXT" package="jwm.entity">
+   <column name="MSGID" type="integer" variable="msgId" formparameter="msgId"/>
+   <column name="LABEL" type="char" variable="label" formparameter="label"/>
+   <column name="TEXT" type="char" variable="text" formparameter="text"/>
+</table>

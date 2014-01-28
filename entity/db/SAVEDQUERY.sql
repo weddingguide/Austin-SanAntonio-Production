@@ -1,0 +1,1 @@
+CREATE TABLE SAVEDQUERY ( SAVEDQUERY.QueryId integer, SAVEDQUERY.Name char, SAVEDQUERY.QueryString char, SAVEDQUERY.QueryType integer, SAVEDQUERY.SortWeight integer, SAVEDQUERY.Selected integer, SAVEDQUERY.View char );

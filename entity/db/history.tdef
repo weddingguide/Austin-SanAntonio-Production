@@ -1,0 +1,10 @@
+jwm.entity  HISTORY
+   EVENTID                   generated_int  eventId                 eventId
+   EVENTTYPE                 integer        eventType               eventType
+   DATE                      timestamp      date                    date
+   OWNERID                   integer        ownerId                 ownerId
+   OWNERTYPE                 integer        ownerType               ownerType
+   DESCRIPTION               char(254)      description             description
+   COMMENT                   char(254)      comment                 comment
+   ORIGINATOR                char           originator              originator
+   REFERENCE                 char           reference               reference

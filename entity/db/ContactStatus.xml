@@ -1,0 +1,9 @@
+<table name="CONTACTSTATUS" package="jwm.entity">
+   <column name="ID" type="generated_int" variable="id" formparameter="id"/>
+   <column name="category" type="integer" variable="category" formparameter="category"/>
+   <column name="name" type="char" variable="name" formparameter="name"/>
+   <column name="sortweight" type="integer" variable="sortWeight" formparameter="sortWeight"/>
+   <column name="trackContactActivity" type="integer" variable="trackContactActivity" formparameter="trackContactActivity"/>
+   <column name="listContacts" type="integer" variable="listContacts" formparameter="listContacts"/>
+   <column name="displayInReport" type="integer" variable="displayInReport" formparameter="displayInReport"/>
+</table>

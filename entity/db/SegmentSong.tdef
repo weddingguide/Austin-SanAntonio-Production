@@ -1,0 +1,10 @@
+jwm.entity SEGMENTSONG
+     ID                   generated_int     id                            id
+     OWNERTYPE            integer          ownerType                     ownerType
+     OWNERID              integer          ownerId                       ownerId
+     SEGMENT              char             segment                       segment
+     SONGLENGTH           char             songLength                    songLength
+     SONG                 char             song                          song
+     ARTIST               char             artist                        artist
+     DETAILS              char             details                       details
+     LOCATION             char             location                      location

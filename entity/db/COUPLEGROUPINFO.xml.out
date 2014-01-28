@@ -1,0 +1,6 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="COUPLEGROUPINFO" package="jwm.entity" >   <column formparameter="ownerType" name="OWNERTYPE" type="integer" variable="ownerType" />
+   <column formparameter="ownerId" name="OWNERID" type="integer" variable="ownerId" />
+   <column formparameter="status" name="STATUS" type="integer" variable="status" />
+</table>

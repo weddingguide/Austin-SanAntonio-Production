@@ -1,0 +1,6 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="MESSAGETEXT" package="jwm.entity" >   <column formparameter="msgId" name="MSGID" type="integer" variable="msgId" />
+   <column formparameter="label" name="LABEL" type="char" variable="label" />
+   <column formparameter="text" name="TEXT" type="char" variable="text" />
+</table>

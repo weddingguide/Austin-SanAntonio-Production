@@ -1,0 +1,8 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="ENTITYCUSTOMTEXT" package="jwm.entity" >   <column formparameter="entityType" name="ENTITYTYPE" type="integer" variable="entityType" />
+   <column formparameter="objectType" name="OBJECTTYPE" type="integer" variable="objectType" />
+   <column formparameter="instance" name="INSTANCE" type="integer" variable="instance" />
+   <column formparameter="longName" name="LONGNAME" type="char" variable="longName" />
+   <column formparameter="shortName" name="SHORTNAME" type="char" variable="shortName" />
+</table>

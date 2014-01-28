@@ -1,0 +1,4 @@
+jwm.entity      CONTACTSTATUSCATEGORY
+     ID                   generated_int    id                            id
+     name                 char             name                          name
+     css                  char             css                           css

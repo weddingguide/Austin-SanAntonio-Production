@@ -1,0 +1,12 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="SEGMENTSONG" package="jwm.entity" >   <column formparameter="id" name="ID" type="generated_int" variable="id" />
+   <column formparameter="ownerType" name="OWNERTYPE" type="integer" variable="ownerType" />
+   <column formparameter="ownerId" name="OWNERID" type="integer" variable="ownerId" />
+   <column formparameter="segment" name="SEGMENT" type="char" variable="segment" />
+   <column formparameter="songLength" name="SONGLENGTH" type="char" variable="songLength" />
+   <column formparameter="song" name="SONG" type="char" variable="song" />
+   <column formparameter="artist" name="ARTIST" type="char" variable="artist" />
+   <column formparameter="details" name="DETAILS" type="char" variable="details" />
+   <column formparameter="location" name="LOCATION" type="char" variable="location" />
+</table>

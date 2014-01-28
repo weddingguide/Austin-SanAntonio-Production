@@ -1,0 +1,11 @@
+  <tr><td>id</td><td><input type=text name='id' id='id' value='<%= theObject.getId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>version</td><td><input type=text name='version' id='version' value='<%= theObject.getVersion() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerType</td><td><input type=text name='ownerType' id='ownerType' value='<%= theObject.getOwnerType() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerId</td><td><input type=text name='ownerId' id='ownerId' value='<%= theObject.getOwnerId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>attributeDefId</td><td><input type=text name='attributeDefId' id='attributeDefId' value='<%= theObject.getAttributeDefId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>attributeDefSubId</td><td><input type=text name='attributeDefSubId' id='attributeDefSubId' value='<%= theObject.getAttributeDefSubId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>attributeData</td><td><input type=text name='attributeData' id='attributeData' value='<%= theObject.getAttributeData() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ndx</td><td><input type=text name='ndx' id='ndx' value='<%= theObject.getNdx() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>bgnDate</td><td><input type=text name='bgnDate' id='bgnDate' value='<%= theObject.getBgnDate() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>endDate</td><td><input type=text name='endDate' id='endDate' value='<%= theObject.getEndDate() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>lastChange</td><td><input type=text name='lastChange' id='lastChange' value='<%= theObject.getLastChange() %>' size= maxchars=></td></tr></td></tr>

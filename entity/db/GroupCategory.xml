@@ -1,0 +1,9 @@
+<table name="GROUPCATEGORY" package="jwm.entity">
+   <column name="ID" type="generated_int" variable="id" formparameter="id"/>
+   <column name="NAME" type="char" size="60" variable="name" formparameter="name"/>
+   <column name="DESCRIPTION" type="char" size="100" variable="description" formparameter="description"/>
+   <column name="CONTAINS" type="integer" variable="contains" formparameter="contains"/>
+   <column name="DETAILSURL" type="char" size="150" variable="detailsURL" formparameter="detailsURL"/>
+   <column name="STATUS" type="integer" variable="status" formparameter="status"/>
+   <column name="UPDATETYPE" type="integer" variable="updateType" formparameter="updateType"/>
+</table>

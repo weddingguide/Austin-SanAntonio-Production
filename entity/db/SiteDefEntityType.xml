@@ -1,0 +1,7 @@
+<table name="SITEDEFENTITYTYPE" package="jwm.entity">
+   <column name="ID" type="generated_int" variable="id" formparameter="id"/>
+   <column name="ENTITYTYPE" type="integer" variable="entityType" formparameter="entityType"/>
+   <column name="NAME" type="char" size="100" variable="name" formparameter="name"/>
+   <column name="searchDefault" type="boolinteger" variable="searchDefault" formparameter="searchDefault"/>
+   <column name="matchEntityStatus" type="integer" variable="matchEntityStatus" formparameter="matchEntityStatus"/>
+</table>

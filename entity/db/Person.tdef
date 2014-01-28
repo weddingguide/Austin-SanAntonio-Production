@@ -1,0 +1,21 @@
+jwm.entity PERSON
+     PERSONID             generated_int    personId                      personId
+     OWNERID              integer          ownerId                       ownerId
+     OWNERTYPE            integer          ownerType                     ownerType
+     LASTNAME             char(40)         lastName                      lastName            required
+     FIRSTNAME            char(40)         firstName                     firstName           required
+     MIDDLENAME           char(40)         middleName                    middleName
+     TITLE                char(10)         title                         title
+     NICKNAME             char(40)         nickName                      nickName
+     SUFFIX               char(10)         suffix                        suffix
+     PREFERREDNAME        char(100)        preferredName                 preferredName
+     SEX                  integer          sex                           sex
+     AGE                  integer          age                           age
+     CREATEDATE           Date             createDate                    createDate
+     LASTUPDATE           Date             lastUpdate                    lastUpdate
+     STATUS               integer          status                        status
+     RECORDTYPE           integer          recordType                    recordType
+     COMMENT              char             comment                       comment
+     URL                  char             url                           url
+     SITEDEFENTITYTYPE    integer          siteDefEntityType             siteDefEntityType
+     BIRTHDATE            Date             birthDate                     birthDate

@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="GROUPMEMBERMAP" package="jwm.entity" >   <column formparameter="groupNum" name="GROUPNUM" type="integer" variable="groupNum" />
+   <column formparameter="memberType" name="MEMBERTYPE" type="integer" variable="memberType" />
+   <column formparameter="memberId" name="MEMBERID" type="integer" variable="memberId" />
+   <column formparameter="memberRole" name="MEMBERROLE" type="integer" variable="memberRole" />
+   <column formparameter="memberRoleText" name="MEMBERROLETEXT" type="char" variable="memberRoleText" />
+   <column formparameter="associatedWithOwnerType" name="ASSOCIATEDWITHOWNERTYPE" type="integer" variable="associatedWithOwnerType" />
+   <column formparameter="associatedWithOwnerId" name="ASSOCIATEDWITHOWNERID" type="integer" variable="associatedWithOwnerId" />
+   <column formparameter="primaryMember" name="PRIMARYMEMBER" type="boolinteger" variable="primaryMember" />
+</table>

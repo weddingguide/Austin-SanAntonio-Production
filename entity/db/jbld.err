@@ -1,0 +1,145 @@
+s:\projects\src\jwm\entity\ContactStatusCategory.java:14: cannot find symbol
+symbol: class ContactStatusCategoryDBRecordBase
+public class ContactStatusCategory extends ContactStatusCategoryDBRecordBase
+                                           ^
+ContactStatusCategoryDBRecordListBase.java:39: cannot find symbol
+symbol  : method getDBQuery(java.lang.String,jwm.db.DBData,javax.servlet.http.HttpServletRequest,java.lang.String,int,int,int)
+location: class jwm.entity.ContactStatusCategory
+         DBQuery dBQuery =  ContactStatusCategory.getDBQuery( aTableName, aDbData, request, label, typeCol, typeValue, logic );
+                                                 ^
+ContactStatusCategoryDBRecordListBase.java:65: incompatible types
+found   : jwm.entity.ContactStatusCategory[]
+required: jwm.db.DBRecord[]
+      return( new ContactStatusCategory[ size ] );
+              ^
+ContactStatusCategoryDBRecordListBase.java:73: incompatible types
+found   : jwm.entity.ContactStatusCategory
+required: jwm.db.DBRecord
+      return( new ContactStatusCategory( aDbData ) );
+              ^
+ContactStatusCategoryDBRecordListBase.java:81: incompatible types
+found   : jwm.entity.ContactStatusCategory
+required: jwm.db.DBRecord
+      return( new ContactStatusCategory( aDbData, resultSet ) );
+              ^
+ContactStatusCategoryDBRecordListBase.java:89: incompatible types
+found   : jwm.entity.ContactStatusCategory
+required: jwm.db.DBRecord
+      return( new ContactStatusCategory( aDbData, request, label ) );
+              ^
+ContactStatusCategoryDBRecordListBase.java:97: incompatible types
+found   : jwm.entity.ContactStatusCategory
+required: jwm.db.DBRecord
+      return( new ContactStatusCategory( aDbData, request, label, aId ) );
+              ^
+s:\projects\src\jwm\entity\ContactStatus.java:15: cannot find symbol
+symbol: class ContactStatusDBRecordBase
+public class ContactStatus extends ContactStatusDBRecordBase
+                                   ^
+s:\projects\src\jwm\entity\ContactStatusList.java:11: cannot find symbol
+symbol: class ContactStatusDBRecordListBase
+public class ContactStatusList extends ContactStatusDBRecordListBase
+                                       ^
+s:\projects\src\jwm\entity\ContactStatus.java:119: cannot find symbol
+symbol  : class Project
+location: class jwm.entity.ContactStatus
+   public static String getHTML( DBData dbData, Project aProject )
+                                                ^
+ContactStatusDBRecordListBase.java:39: cannot find symbol
+symbol  : method getDBQuery(java.lang.String,jwm.db.DBData,javax.servlet.http.HttpServletRequest,java.lang.String,int,int,int)
+location: class jwm.entity.ContactStatus
+         DBQuery dBQuery =  ContactStatus.getDBQuery( aTableName, aDbData, request, label, typeCol, typeValue, logic );
+                                         ^
+ContactStatusDBRecordListBase.java:65: incompatible types
+found   : jwm.entity.ContactStatus[]
+required: jwm.db.DBRecord[]
+      return( new ContactStatus[ size ] );
+              ^
+ContactStatusDBRecordListBase.java:73: incompatible types
+found   : jwm.entity.ContactStatus
+required: jwm.db.DBRecord
+      return( new ContactStatus( aDbData ) );
+              ^
+ContactStatusDBRecordListBase.java:81: incompatible types
+found   : jwm.entity.ContactStatus
+required: jwm.db.DBRecord
+      return( new ContactStatus( aDbData, resultSet ) );
+              ^
+ContactStatusDBRecordListBase.java:89: incompatible types
+found   : jwm.entity.ContactStatus
+required: jwm.db.DBRecord
+      return( new ContactStatus( aDbData, request, label ) );
+              ^
+ContactStatusDBRecordListBase.java:97: incompatible types
+found   : jwm.entity.ContactStatus
+required: jwm.db.DBRecord
+      return( new ContactStatus( aDbData, request, label, aId ) );
+              ^
+s:\projects\src\jwm\entity\ContactStatusCategory.java:71: cannot find symbol
+symbol  : method populateObject(java.lang.String,java.lang.String,int)
+location: class jwm.entity.ContactStatusCategory
+      populateObject( "ContactStatusCATEGORY", "ID", aId );
+      ^
+s:\projects\src\jwm\entity\ContactStatus.java:80: cannot find symbol
+symbol  : method populateObject(java.lang.String,java.lang.String,int)
+location: class jwm.entity.ContactStatus
+      populateObject( "ContactStatus", "ID", aId );
+      ^
+s:\projects\src\jwm\entity\ContactStatus.java:82: cannot find symbol
+symbol  : variable category
+location: class jwm.entity.ContactStatus
+      ContactStatusCategory categoryObject = new ContactStatusCategory( dbData, category );
+                                                                                ^
+s:\projects\src\jwm\entity\ContactStatus.java:83: cannot find symbol
+symbol  : method getName()
+location: class jwm.entity.ContactStatusCategory
+      categoryName = categoryObject.getName();
+                                   ^
+s:\projects\src\jwm\entity\ContactStatus.java:88: cannot find symbol
+symbol  : variable dbData
+location: class jwm.entity.ContactStatus
+      EntityGroup ContactStatusGroup = new EntityGroup(dbData, name );
+                                                       ^
+s:\projects\src\jwm\entity\ContactStatus.java:88: cannot find symbol
+symbol  : variable name
+location: class jwm.entity.ContactStatus
+      EntityGroup ContactStatusGroup = new EntityGroup(dbData, name );
+                                                               ^
+s:\projects\src\jwm\entity\ContactStatus.java:105: cannot find symbol
+symbol  : variable dbData
+location: class jwm.entity.ContactStatus
+      ContactStatusList nextStateList = new ContactStatusList( dbData, "name in ("+names+")", "" );
+                                                               ^
+s:\projects\src\jwm\entity\ContactStatus.java:112: cannot find symbol
+symbol  : variable dbData
+location: class jwm.entity.ContactStatus
+     ContactStatusCategory categoryObject = new ContactStatusCategory( dbData, category );
+                                                                       ^
+s:\projects\src\jwm\entity\ContactStatus.java:112: cannot find symbol
+symbol  : variable category
+location: class jwm.entity.ContactStatus
+     ContactStatusCategory categoryObject = new ContactStatusCategory( dbData, category );
+                                                                               ^
+s:\projects\src\jwm\entity\ContactStatus.java:113: cannot find symbol
+symbol  : method getCss()
+location: class jwm.entity.ContactStatusCategory
+     String rc =  "<span class='"+categoryObject.getCss()+"'>"+name+"</span>";
+                                                ^
+s:\projects\src\jwm\entity\ContactStatus.java:113: cannot find symbol
+symbol  : variable name
+location: class jwm.entity.ContactStatus
+     String rc =  "<span class='"+categoryObject.getCss()+"'>"+name+"</span>";
+                                                               ^
+s:\projects\src\jwm\entity\ContactStatus.java:115: cannot find symbol
+symbol  : variable name
+location: class jwm.entity.ContactStatus
+     if ( name.indexOf( "Form Received" ) > -1 ) rc += "<br><a href=createResponse.jsp?projectId="+projectId+">Send Response</a>";
+          ^
+s:\projects\src\jwm\entity\ContactStatusList.java:28: cannot find symbol
+symbol  : method buildList(java.lang.String,java.lang.String)
+location: class jwm.entity.ContactStatusList
+      buildList( "ContactStatus", "ID = " + Integer.toString(aId) );
+      ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+29 errors

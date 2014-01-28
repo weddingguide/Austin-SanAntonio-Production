@@ -1,0 +1,7 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="SITEDEFENTITYTYPE" package="jwm.entity" >   <column formparameter="id" name="ID" type="generated_int" variable="id" />
+   <column formparameter="entityType" name="ENTITYTYPE" type="integer" variable="entityType" />
+   <column formparameter="name" name="NAME" size="100" type="char" variable="name" />
+   <column formparameter="searchDefault" name="searchDefault" type="boolinteger" variable="searchDefault" />
+</table>

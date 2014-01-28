@@ -1,0 +1,5 @@
+<table name="CONTACTSTATUSCATEGORY" package="jwm.entity">
+   <column name="ID" type="generated_int" variable="id" formparameter="id"/>
+   <column name="name" type="char" variable="name" formparameter="name"/>
+   <column name="css" type="char" variable="css" formparameter="css"/>
+</table>

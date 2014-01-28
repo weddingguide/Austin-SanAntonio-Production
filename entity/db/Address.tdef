@@ -1,0 +1,12 @@
+jwm.entity ADDRESS
+     ADDRESSID            generated_int    addressId                     addressId
+     OWNERID              integer          ownerId                       ownerId
+     OWNERTYPE            integer          ownerType                     ownerType
+     ADDRESSTYPE          integer          addressType                   addressType
+     ADDRESSLINE1         char(100)        addressLine1                  addressLine1        required
+     ADDRESSLINE2         char(100)        addressLine2                  addressLine2
+     ADDRESSLINE3         char(100)        addressLine3                  addressLine3
+     CITY                 char(50)         city                          city
+     STATE                char(20)         state                         state
+     COUNTRY              char(20)         country                       country
+     POSTALCODE           char(20)         postalCode                    postalCode

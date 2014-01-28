@@ -1,0 +1,40 @@
+package jwm.entity;
+ 
+import jwm.db.*;
+import jwm.entity.db.*;
+import jwm.logger.*;
+import java.io.*;
+import java.sql.*;
+import java.util.*;
+import java.util.logging.*;
+import org.apache.juli.*;
+import org.w3c.dom.*;
+ 
+public class MailTemplateList extends MailTemplateDBRecordListBase
+{
+ 
+   //====generated===========generated=========generated==========generated=====
+   //====generated===========generated=========generated==========generated=====
+ 
+   public MailTemplateList( DBData aDbData, String criteriaString, String orderString  )
+   {
+      super( aDbData, criteriaString, orderString );
+   }
+ 
+   //====generated===========generated=========generated==========generated=====
+   //====generated===========generated=========generated==========generated=====
+ 
+   public MailTemplateList( DBData aDbData, int aId  )
+   {
+      super( aDbData );
+      buildList( "MAILTEMPLATE", "ID = " + Integer.toString(aId) );
+   }
+ 
+   //====generated===========generated=========generated==========generated=====
+   //====generated===========generated=========generated==========generated=====
+ 
+   public MailTemplateList( DBData dbData )
+   {
+      super( dbData );
+   }
+}

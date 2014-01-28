@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="EMAIL" package="jwm.entity" >   <column formparameter="emailId" name="EMAILID" type="generated_int" variable="emailId" />
+   <column formparameter="ownerId" name="OWNERID" type="integer" variable="ownerId" />
+   <column formparameter="ownerType" name="OWNERTYPE" type="integer" variable="ownerType" />
+   <column formparameter="subscribe" name="SUBSCRIBE" type="boolinteger" variable="subscribe" />
+   <column formparameter="emailAddress" name="EMAILADDRESS" required="required" size="120" type="char" variable="emailAddress" />
+   <column formparameter="emailAddressType" name="EMAILADDRESSTYPE" type="integer" variable="emailAddressType" />
+   <column formparameter="refKey" name="REFKEY" type="char" variable="refKey" />
+</table>

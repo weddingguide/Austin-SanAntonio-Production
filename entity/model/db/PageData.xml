@@ -1,0 +1,10 @@
+<table name="PAGEDATA" package="jwm.entity.model">
+   <column name="PAGEDESCRIPTION" type="char" variable="pageDescription" formparameter="pageDescription"/>
+   <column name="KEYWORDS" type="char" variable="keywords" formparameter="keywords"/>
+   <column name="GOOGLEVERIFY" type="char" variable="googleVerify" formparameter="googleVerify"/>
+   <column name="BINGVERIFY" type="char" variable="bingVerify" formparameter="bingVerify"/>
+   <column name="URLPREFIX" type="char" variable="urlPrefix" formparameter="urlPrefix"/>
+   <column name="GOOGLEANALYTICS" type="char" variable="googleAnalytics" formparameter="googleAnalytics"/>
+   <column name="CSSNAME" type="char" variable="cssName" formparameter="cssName"/>
+   <column name="CALLBACK" type="char" variable="callBack" formparameter="callBackParms"/>
+</table>

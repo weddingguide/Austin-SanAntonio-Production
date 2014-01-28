@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="HISTORY" package="jwm.entity" >   <column formparameter="eventId" name="EVENTID" type="generated_int" variable="eventId" />
+   <column formparameter="eventType" name="EVENTTYPE" type="integer" variable="eventType" />
+   <column formparameter="date" name="DATE" type="Date" variable="date" />
+   <column formparameter="ownerId" name="OWNERID" type="integer" variable="ownerId" />
+   <column formparameter="ownerType" name="OWNERTYPE" type="integer" variable="ownerType" />
+   <column formparameter="description" name="DESCRIPTION" size="254" type="char" variable="description" />
+   <column formparameter="comment" name="COMMENT" size="254" type="char" variable="comment" />
+   <column formparameter="originator" name="ORIGINATOR" type="char" variable="originator" />
+</table>

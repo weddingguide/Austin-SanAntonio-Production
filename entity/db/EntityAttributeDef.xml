@@ -1,0 +1,13 @@
+<table name="ENTITYATTRIBUTEDEF" package="jwm.entity">
+   <column name="ID" type="integer" variable="id" formparameter="id"/>
+   <column name="SUBID" type="integer" variable="subId" formparameter="subId"/>
+   <column name="SORTWEIGHT" type="integer" variable="sortWeight" formparameter="sortWeight"/>
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="NAME" type="char" variable="name" formparameter="name"/>
+   <column name="PROMPT" type="char" variable="prompt" formparameter="prompt"/>
+   <column name="TYPE" type="integer" variable="type" formparameter="type"/>
+   <column name="CARDINALITY" type="integer" variable="cardinality" formparameter="cardinality"/>
+   <column name="DATERESTRICTED" type="integer" variable="dateRestricted" formparameter="dateRestricted"/>
+   <column name="USERDEFINED" type="integer" variable="userDefined" formparameter="userDefined"/>
+</table>

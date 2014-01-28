@@ -1,0 +1,15 @@
+<table name="ENTITYGROUP" package="jwm.entity">
+   <column name="GROUPNUM" type="generated_int" variable="groupNum" formparameter="groupNum"/>
+   <column name="ALIASOF" type="integer" variable="aliasOf" formparameter="aliasOf"/>
+   <column name="TYPE" type="integer" variable="type" formparameter="type"/>
+   <column name="NAME" type="char" size="60" variable="name" formparameter="name"/>
+   <column name="EXTNAME" type="char" size="60" variable="extName" formparameter="extName"/>
+   <column name="DESCRIPTION" type="char" size="100" variable="description" formparameter="description"/>
+   <column name="STATUS" type="integer" variable="status" formparameter="status"/>
+   <column name="CATEGORY" type="integer" variable="category" formparameter="category"/>
+   <column name="NOTIFYGROUP" type="integer" variable="notifyGroup" formparameter="notifyGroup"/>
+   <column name="CREATEDATE" type="Date" variable="createDate" formparameter="createDate"/>
+   <column name="LASTUPDATE" type="timestamp" variable="lastUpdate" formparameter="lastUpdate"/>
+   <column name="NOTIFYCHANGE" type="integer" variable="notifyChange" formparameter="notifyChange"/>
+   <column name="FOLLOWUPSTATUSCACHE" type="integer" variable="followUpStatusCache" formparameter="followUpStatusCache"/>
+</table>

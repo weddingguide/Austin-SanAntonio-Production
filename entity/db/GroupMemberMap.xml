@@ -1,0 +1,10 @@
+<table name="GROUPMEMBERMAP" package="jwm.entity">
+   <column name="GROUPNUM" type="integer" variable="groupNum" formparameter="groupNum"/>
+   <column name="MEMBERTYPE" type="integer" variable="memberType" formparameter="memberType"/>
+   <column name="MEMBERID" type="integer" variable="memberId" formparameter="memberId"/>
+   <column name="MEMBERROLE" type="integer" variable="memberRole" formparameter="memberRole"/>
+   <column name="MEMBERROLETEXT" type="char" variable="memberRoleText" formparameter="memberRoleText"/>
+   <column name="ASSOCIATEDWITHOWNERTYPE" type="integer" variable="associatedWithOwnerType" formparameter="associatedWithOwnerType"/>
+   <column name="ASSOCIATEDWITHOWNERID" type="integer" variable="associatedWithOwnerId" formparameter="associatedWithOwnerId"/>
+   <column name="PRIMARYMEMBER" type="boolinteger" variable="primaryMember" formparameter="primaryMember"/>
+</table>

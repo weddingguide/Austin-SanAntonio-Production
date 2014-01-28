@@ -1,0 +1,9 @@
+jwm.entity.model PAGEDATA
+     PAGEDESCRIPTION      char             pageDescription               pageDescription
+     KEYWORDS             char             keywords                      keywords
+     GOOGLEVERIFY         char             googleVerify                  googleVerify
+     BINGVERIFY           char             bingVerify                    bingVerify
+     URLPREFIX            char             urlPrefix                     urlPrefix
+     GOOGLEANALYTICS      char             googleAnalytics               googleAnalytics
+     CSSNAME              char             cssName                       cssName
+     CALLBACK             char             callBack                      callBackParms

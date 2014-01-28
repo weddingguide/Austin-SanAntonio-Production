@@ -1,0 +1,10 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="GROUPCATEGORY" package="jwm.entity" >   <column formparameter="id" name="ID" type="generated_int" variable="id" />
+   <column formparameter="name" name="NAME" size="60" type="char" variable="name" />
+   <column formparameter="description" name="DESCRIPTION" size="100" type="char" variable="description" />
+   <column formparameter="contains" name="CONTAINS" type="integer" variable="contains" />
+   <column formparameter="detailsURL" name="DETAILSURL" size="150" type="char" variable="detailsURL" />
+   <column formparameter="status" name="STATUS" type="integer" variable="status" />
+   <column formparameter="updateType" name="UPDATETYPE" type="integer" variable="updateType" />
+</table>

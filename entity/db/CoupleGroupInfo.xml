@@ -1,0 +1,24 @@
+<table name="COUPLEGROUPINFO" package="jwm.entity">
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="STATUS" type="integer" variable="status" formparameter="status"/>
+   <column name="MUSICRECEIVED" type="integer" variable="musicReceived" formparameter="musicReceived"/>
+   <column name="MUSICINFODETAILS" type="char" variable="musicInfoDetails" formparameter="musicInfoDetails"/>
+   <column name="INVITATIONRECEIVED" type="integer" variable="invitationReceived" formparameter="invitationReceived"/>
+   <column name="INVITATIONINFODETAILS" type="char" variable="invitationInfoDetails" formparameter="invitationInfoDetails"/>
+   <column name="PROGRAMRECEIVED" type="integer" variable="programReceived" formparameter="programReceived"/>
+   <column name="PROGRAMINFODETAILS" type="char" variable="programInfoDetails" formparameter="programInfoDetails"/>
+   <column name="PriceListVersion" type="char" variable="priceListVersion" formparameter="priceListVersion"/>
+   <column name="HoursOnSite" type="integer" variable="hoursOnSite" formparameter="hoursOnSite"/>
+   <column name="LoveStory" type="boolinteger" variable="loveStory" formparameter="loveStory"/>
+   <column name="PhotoMontage" type="boolinteger" variable="photoMontage" formparameter="photoMontage"/>
+   <column name="CompleteCeremony" type="boolinteger" variable="completeCeremony" formparameter="completeCeremony"/>
+   <column name="NumberOfDVDs" type="integer" variable="numberOfDVDs" formparameter="numberOfDVDs"/>
+   <column name="NegotiatedItems" type="char" variable="negotiatedItems" formparameter="negotiatedItems"/>
+   <column name="WebPublication" type="boolinteger" variable="webPublication" formparameter="webPublication"/>
+   <column name="Catalog" type="integer" variable="catalog" formparameter="catalog"/>
+   <column name="createDate" type="Date" variable="createDate" formparameter="createDate"/>
+   <column name="registryCatalog" type="integer" variable="registryCatalog" formparameter="registryCatalog"/>
+   <column name="project" type="integer" variable="project" formparameter="project"/>
+   <column name="titletext" type="char" variable="titleText" formparameter="titleText"/>
+</table>

@@ -1,0 +1,8 @@
+jwm.entity GROUPCATEGORY
+     ID                   generated_int    id                            id
+     NAME                 char(60)         name                          name
+     DESCRIPTION          char(100)        description                   description
+     CONTAINS             integer          contains                      contains
+     DETAILSURL           char(150)        detailsURL                    detailsURL
+     STATUS               integer          status                        status
+     UPDATETYPE           integer          updateType                    updateType

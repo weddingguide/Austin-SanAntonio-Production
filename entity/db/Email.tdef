@@ -1,0 +1,8 @@
+jwm.entity        EMAIL
+     EMAILID              generated_int    emailId                       emailId
+     OWNERID              integer          ownerId                       ownerId
+     OWNERTYPE            integer          ownerType                     ownerType
+     SUBSCRIBE            boolinteger      subscribe                     subscribe
+     EMAILADDRESS         char(120)        emailAddress                  emailAddress        required
+     EMAILADDRESSTYPE     integer          emailAddressType              emailAddressType
+     REFKEY               char             refKey                        refKey

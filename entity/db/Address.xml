@@ -1,0 +1,13 @@
+<table name="ADDRESS" package="jwm.entity">
+   <column name="ADDRESSID" type="generated_int" variable="addressId" formparameter="addressId"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="ADDRESSTYPE" type="integer" variable="addressType" formparameter="addressType"/>
+   <column name="ADDRESSLINE1" type="char" size="100" variable="addressLine1" formparameter="addressLine1" required="required"/>
+   <column name="ADDRESSLINE2" type="char" size="100" variable="addressLine2" formparameter="addressLine2"/>
+   <column name="ADDRESSLINE3" type="char" size="100" variable="addressLine3" formparameter="addressLine3"/>
+   <column name="CITY" type="char" size="50" variable="city" formparameter="city"/>
+   <column name="STATE" type="char" size="20" variable="state" formparameter="state"/>
+   <column name="COUNTRY" type="char" size="20" variable="country" formparameter="country"/>
+   <column name="POSTALCODE" type="char" size="20" variable="postalCode" formparameter="postalCode"/>
+</table>

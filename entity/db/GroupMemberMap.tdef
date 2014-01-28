@@ -1,0 +1,9 @@
+jwm.entity GROUPMEMBERMAP
+     GROUPNUM                 integer          groupNum                      groupNum
+     MEMBERTYPE               integer          memberType                    memberType
+     MEMBERID                 integer          memberId                      memberId
+     MEMBERROLE               integer          memberRole                    memberRole
+     MEMBERROLETEXT           char             memberRoleText                memberRoleText
+     ASSOCIATEDWITHOWNERTYPE  integer          associatedWithOwnerType       associatedWithOwnerType
+     ASSOCIATEDWITHOWNERID    integer          associatedWithOwnerId         associatedWithOwnerId
+     PRIMARYMEMBER            boolinteger      primaryMember                 primaryMember

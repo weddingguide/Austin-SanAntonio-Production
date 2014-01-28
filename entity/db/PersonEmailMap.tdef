@@ -1,0 +1,3 @@
+jwm.entity        PERSONEMAILMAP
+     PERSONID             integer          personId                      personId
+     EMAILID              integer          emailId                       emailId

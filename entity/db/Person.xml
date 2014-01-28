@@ -1,0 +1,22 @@
+<table name="PERSON" package="jwm.entity">
+   <column name="PERSONID" type="generated_int" variable="personId" formparameter="personId"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="LASTNAME" type="char" size="40" variable="lastName" formparameter="lastName" required="required"/>
+   <column name="FIRSTNAME" type="char" size="40" variable="firstName" formparameter="firstName" required="required"/>
+   <column name="MIDDLENAME" type="char" size="40" variable="middleName" formparameter="middleName"/>
+   <column name="TITLE" type="char" size="10" variable="title" formparameter="title"/>
+   <column name="NICKNAME" type="char" size="40" variable="nickName" formparameter="nickName"/>
+   <column name="SUFFIX" type="char" size="10" variable="suffix" formparameter="suffix"/>
+   <column name="PREFERREDNAME" type="char" size="100" variable="preferredName" formparameter="preferredName"/>
+   <column name="SEX" type="integer" variable="sex" formparameter="sex"/>
+   <column name="AGE" type="integer" variable="age" formparameter="age"/>
+   <column name="CREATEDATE" type="Date" variable="createDate" formparameter="createDate"/>
+   <column name="LASTUPDATE" type="Date" variable="lastUpdate" formparameter="lastUpdate"/>
+   <column name="STATUS" type="integer" variable="status" formparameter="status"/>
+   <column name="RECORDTYPE" type="integer" variable="recordType" formparameter="recordType"/>
+   <column name="COMMENT" type="char" variable="comment" formparameter="comment"/>
+   <column name="URL" type="char" variable="url" formparameter="url"/>
+   <column name="SITEDEFENTITYTYPE" type="integer" variable="siteDefEntityType" formparameter="siteDefEntityType"/>
+   <column name="BIRTHDATE" type="Date" variable="birthDate" formparameter="birthDate"/>
+</table>

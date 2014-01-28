@@ -1,0 +1,7 @@
+<table name="PHONE" package="jwm.entity">
+   <column name="PHONEID" type="generated_int" variable="phoneId" formparameter="phoneId"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="PHONENUMBER" type="char" size="20" variable="phoneNumber" formparameter="phoneNumber" required="required"/>
+   <column name="PHONENUMBERTYPE" type="integer" variable="phoneNumberType" formparameter="phoneNumberType"/>
+</table>

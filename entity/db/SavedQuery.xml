@@ -1,0 +1,9 @@
+<table name="SAVEDQUERY" package="jwm.entity">
+   <column name="QueryId" type="generated_int" variable="queryId" formparameter="queryId"/>
+   <column name="Name" type="char" variable="name" formparameter="name"/>
+   <column name="QueryString" type="char" variable="queryString" formparameter="queryString"/>
+   <column name="QueryType" type="integer" variable="queryType" formparameter="queryType"/>
+   <column name="SortWeight" type="integer" variable="sortWeight" formparameter="sortWeight"/>
+   <column name="Selected" type="integer" variable="selected" formparameter="selected"/>
+   <column name="View" type="char" variable="view" formparameter="view"/>
+</table>

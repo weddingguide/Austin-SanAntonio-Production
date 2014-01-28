@@ -1,0 +1,40 @@
+package jwm.entity;
+ 
+import jwm.db.*;
+import jwm.entity.db.*;
+import jwm.logger.*;
+import java.io.*;
+import java.sql.*;
+import java.util.*;
+import java.util.logging.*;
+import org.apache.juli.*;
+import org.w3c.dom.*;
+ 
+public class AttributeVersionList extends AttributeVersionDBRecordListBase
+{
+ 
+   //====generated===========generated=========generated==========generated=====
+   //====generated===========generated=========generated==========generated=====
+ 
+   public AttributeVersionList( DBData aDbData, String criteriaString, String orderString  )
+   {
+      super( aDbData, criteriaString, orderString );
+   }
+ 
+   //====generated===========generated=========generated==========generated=====
+   //====generated===========generated=========generated==========generated=====
+ 
+   public AttributeVersionList( DBData aDbData, int aId  )
+   {
+      super( aDbData );
+      buildList( "ATTRIBUTEVERSION", "ID = " + Integer.toString(aId) );
+   }
+ 
+   //====generated===========generated=========generated==========generated=====
+   //====generated===========generated=========generated==========generated=====
+ 
+   public AttributeVersionList( DBData dbData )
+   {
+      super( dbData );
+   }
+}

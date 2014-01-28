@@ -1,0 +1,17 @@
+<table name="TERMPROJECTINFO" package="jwm.entity">
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="TTTLE" type="char" variable="title" formparameter="title"/>
+   <column name="OVERVIEW" type="char" variable="overview" formparameter="overview"/>
+   <column name="SCENARIO" type="char" variable="scenario" formparameter="scenario"/>
+   <column name="PROFROLE" type="char" variable="profRole" formparameter="profRole"/>
+   <column name="TEAMROLE" type="char" variable="teamRole" formparameter="teamRole"/>
+   <column name="ACTIONREQUEST" type="char" variable="actionRequest" formparameter="actionRequest"/>
+   <column name="REPORTURL" type="char" variable="reportURL" formparameter="reportURL"/>
+   <column name="FEEDBACK" type="char" variable="feedback" formparameter="feedback"/>
+   <column name="EVALUATION" type="char" variable="evaluation" formparameter="evaluation"/>
+   <column name="PRESENTATIONSECTION" type="integer" variable="presentationSection" formparameter="presentationSection"/>
+   <column name="REPORTDOC" type="char" variable="reportDoc" formparameter="reportDoc"/>
+   <column name="GRADE" type="char" variable="grade" formparameter="grade"/>
+   <column name="CREATEDATE" type="Date" variable="createDate" formparameter="createDate"/>
+</table>

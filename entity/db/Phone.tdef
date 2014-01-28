@@ -1,0 +1,6 @@
+jwm.entity PHONE
+     PHONEID              generated_int    phoneId                       phoneId
+     OWNERID              integer          ownerId                       ownerId
+     OWNERTYPE            integer          ownerType                     ownerType
+     PHONENUMBER          char(20)         phoneNumber                   phoneNumber          required
+     PHONENUMBERTYPE      integer          phoneNumberType               phoneNumberType

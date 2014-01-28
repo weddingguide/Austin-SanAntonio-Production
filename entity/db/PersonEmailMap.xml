@@ -1,0 +1,4 @@
+<table name="PERSONEMAILMAP" package="jwm.entity">
+   <column name="PERSONID" type="integer" variable="personId" formparameter="personId"/>
+   <column name="EMAILID" type="integer" variable="emailId" formparameter="emailId"/>
+</table>

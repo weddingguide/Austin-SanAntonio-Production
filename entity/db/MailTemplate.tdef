@@ -1,0 +1,14 @@
+jwm.entity MAILTEMPLATE
+     id                   generated_int    id                            id
+     name                 char             name                          name
+     description          char             description                   description
+     body                 char             body                          body
+     subject              char             subject                       subject
+     Qualifier           char              qualifier                     qualifier
+     toStatus             char             toStatus                      toStatus
+     toFollowup           integer          toFollowup                    toFollowup
+     statusbatch          boolinteger      statusBatch                   statusBatch
+     groupbatch           boolinteger      groupBatch                    groupBatch
+     individual           boolinteger      individual                    individual
+     preventDuplicates    boolinteger      preventDuplicates             preventDuplicates
+     onlyToResponseDue    boolinteger      onlyToResponseDue             onlyToResponseDue

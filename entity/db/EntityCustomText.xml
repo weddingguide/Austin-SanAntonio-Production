@@ -1,0 +1,7 @@
+<table name="ENTITYCUSTOMTEXT" package="jwm.entity">
+   <column name="ENTITYTYPE" type="integer" variable="entityType" formparameter="entityType"/>
+   <column name="OBJECTTYPE" type="integer" variable="objectType" formparameter="objectType"/>
+   <column name="INSTANCE" type="integer" variable="instance" formparameter="instance"/>
+   <column name="LONGNAME" type="char" variable="longName" formparameter="longName"/>
+   <column name="SHORTNAME" type="char" variable="shortName" formparameter="shortName"/>
+</table>

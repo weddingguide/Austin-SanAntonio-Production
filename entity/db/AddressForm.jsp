@@ -1,0 +1,11 @@
+  <tr><td>addressId</td><td><input type=text name='addressId' id='addressId' value='<%= theObject.getAddressId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerId</td><td><input type=text name='ownerId' id='ownerId' value='<%= theObject.getOwnerId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerType</td><td><input type=text name='ownerType' id='ownerType' value='<%= theObject.getOwnerType() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>addressType</td><td><input type=text name='addressType' id='addressType' value='<%= theObject.getAddressType() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>addressLine1</td><td><input type=text name='addressLine1' id='addressLine1' value='<%= theObject.getAddressLine1() %>' size=40 maxchars=100></td></tr></td></tr>
+  <tr><td>addressLine2</td><td><input type=text name='addressLine2' id='addressLine2' value='<%= theObject.getAddressLine2() %>' size=40 maxchars=100></td></tr></td></tr>
+  <tr><td>addressLine3</td><td><input type=text name='addressLine3' id='addressLine3' value='<%= theObject.getAddressLine3() %>' size=40 maxchars=100></td></tr></td></tr>
+  <tr><td>city</td><td><input type=text name='city' id='city' value='<%= theObject.getCity() %>' size=40 maxchars=50></td></tr></td></tr>
+  <tr><td>state</td><td><input type=text name='state' id='state' value='<%= theObject.getState() %>' size=20 maxchars=20></td></tr></td></tr>
+  <tr><td>country</td><td><input type=text name='country' id='country' value='<%= theObject.getCountry() %>' size=20 maxchars=20></td></tr></td></tr>
+  <tr><td>postalCode</td><td><input type=text name='postalCode' id='postalCode' value='<%= theObject.getPostalCode() %>' size=20 maxchars=20></td></tr></td></tr>

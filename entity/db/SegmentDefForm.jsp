@@ -1,0 +1,9 @@
+  <tr><td>id</td><td><input type=text name='id' id='id' value='<%= theObject.getId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerType</td><td><input type=text name='ownerType' id='ownerType' value='<%= theObject.getOwnerType() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ownerId</td><td><input type=text name='ownerId' id='ownerId' value='<%= theObject.getOwnerId() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>name</td><td><input type=text name='name' id='name' value='<%= theObject.getName() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>status</td><td><input type=text name='status' id='status' value='<%= theObject.getStatus() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>ndx</td><td><input type=text name='ndx' id='ndx' value='<%= theObject.getNdx() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>displayName</td><td><input type=text name='displayName' id='displayName' value='<%= theObject.getDisplayName() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>description</td><td><input type=text name='description' id='description' value='<%= theObject.getDescription() %>' size= maxchars=></td></tr></td></tr>
+  <tr><td>type</td><td><input type=text name='type' id='type' value='<%= theObject.getType() %>' size= maxchars=></td></tr></td></tr>

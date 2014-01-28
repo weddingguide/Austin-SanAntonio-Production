@@ -1,0 +1,7 @@
+<table name="ATTRIBUTEVERSION" package="jwm.entity">
+   <column name="ID" type="generated_int" variable="id" formparameter="id"/>
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="NAME" type="char" variable="name" formparameter="name"/>
+   <column name="STATE" type="integer" variable="state" formparameter="state"/>
+</table>

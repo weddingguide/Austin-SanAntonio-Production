@@ -1,0 +1,13 @@
+<table name="ENTITYATTRIBUTE" package="jwm.entity">
+   <column name="ID" type="generated_int" variable="id" formparameter="id"/>
+   <column name="VERSION" type="integer" variable="version" formparameter="version"/>
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="ATTRIBUTEDEFID" type="integer" variable="attributeDefId" formparameter="attributeDefId"/>
+   <column name="ATTRIBUTEDEFSUBID" type="integer" variable="attributeDefSubId" formparameter="attributeDefSubId"/>
+   <column name="ATTRIBUTEDATA" type="char" variable="attributeData" formparameter="attributeData"/>
+   <column name="NDX" type="integer" variable="ndx" formparameter="ndx"/>
+   <column name="BGNDATE" type="Date" variable="bgnDate" formparameter="bgnDate"/>
+   <column name="ENDDATE" type="Date" variable="endDate" formparameter="endDate"/>
+   <column name="LASTCHANGE" type="char" variable="lastChange" formparameter="lastChange"/>
+</table>

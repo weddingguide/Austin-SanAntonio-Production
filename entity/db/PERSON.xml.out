@@ -1,0 +1,23 @@
+<?xml version = "1.0"?>
+<!DOCTYPE addressbook SYSTEM "addressbook.dtd" >
+<table name="PERSON" package="jwm.entity" >   <column formparameter="personId" name="PERSONID" type="generated_int" variable="personId" />
+   <column formparameter="ownerId" name="OWNERID" type="integer" variable="ownerId" />
+   <column formparameter="ownerType" name="OWNERTYPE" type="integer" variable="ownerType" />
+   <column formparameter="lastName" name="LASTNAME" required="required" size="40" type="char" variable="lastName" />
+   <column formparameter="firstName" name="FIRSTNAME" required="required" size="40" type="char" variable="firstName" />
+   <column formparameter="middleName" name="MIDDLENAME" size="40" type="char" variable="middleName" />
+   <column formparameter="title" name="TITLE" size="10" type="char" variable="title" />
+   <column formparameter="nickName" name="NICKNAME" size="40" type="char" variable="nickName" />
+   <column formparameter="suffix" name="SUFFIX" size="10" type="char" variable="suffix" />
+   <column formparameter="preferredName" name="PREFERREDNAME" size="100" type="char" variable="preferredName" />
+   <column formparameter="sex" name="SEX" type="integer" variable="sex" />
+   <column formparameter="age" name="AGE" type="integer" variable="age" />
+   <column formparameter="createDate" name="CREATEDATE" type="Date" variable="createDate" />
+   <column formparameter="lastUpdate" name="LASTUPDATE" type="Date" variable="lastUpdate" />
+   <column formparameter="status" name="STATUS" type="integer" variable="status" />
+   <column formparameter="recordType" name="RECORDTYPE" type="integer" variable="recordType" />
+   <column formparameter="comment" name="COMMENT" type="char" variable="comment" />
+   <column formparameter="url" name="URL" type="char" variable="url" />
+   <column formparameter="siteDefEntityType" name="SITEDEFENTITYTYPE" type="integer" variable="siteDefEntityType" />
+   <column formparameter="birthDate" name="BIRTHDATE" type="Date" variable="birthDate" />
+</table>

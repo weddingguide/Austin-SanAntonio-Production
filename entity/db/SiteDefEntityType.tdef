@@ -1,0 +1,6 @@
+jwm.entity SITEDEFENTITYTYPE
+     ID                   generated_int    id                            id
+     ENTITYTYPE           integer          entityType                    entityType
+     NAME                 char(100)        name                          name
+     searchDefault        boolinteger      searchDefault                 searchDefault
+     matchEntityStatus    integer          matchEntityStatus             matchEntityStatus

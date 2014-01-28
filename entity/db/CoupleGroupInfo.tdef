@@ -1,0 +1,23 @@
+jwm.entity COUPLEGROUPINFO
+     OWNERTYPE              integer          ownerType                     ownerType
+     OWNERID                integer          ownerId                       ownerId
+     STATUS                 integer          status                        status
+     MUSICRECEIVED          integer          musicReceived                 musicReceived
+     MUSICINFODETAILS       char             musicInfoDetails              musicInfoDetails
+     INVITATIONRECEIVED     integer          invitationReceived            invitationReceived
+     INVITATIONINFODETAILS  char             invitationInfoDetails         invitationInfoDetails
+     PROGRAMRECEIVED        integer          programReceived               programReceived
+     PROGRAMINFODETAILS     char             programInfoDetails            programInfoDetails
+     PriceListVersion       char             priceListVersion              priceListVersion
+     HoursOnSite            integer          hoursOnSite                   hoursOnSite
+     LoveStory              boolinteger      loveStory                     loveStory
+     PhotoMontage           boolinteger      photoMontage                  photoMontage
+     CompleteCeremony       boolinteger      completeCeremony              completeCeremony
+     NumberOfDVDs           integer          numberOfDVDs                  numberOfDVDs
+     NegotiatedItems        char             negotiatedItems               negotiatedItems
+     WebPublication         boolinteger      webPublication                webPublication
+     Catalog                integer          catalog                       catalog
+     createDate             Date             createDate                    createDate
+     registryCatalog        integer          registryCatalog               registryCatalog
+     project                integer          project                       project
+     titletext              char             titleText                     titleText

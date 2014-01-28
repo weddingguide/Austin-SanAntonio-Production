@@ -1,0 +1,11 @@
+<table name="SEGMENTSONG" package="jwm.entity">
+   <column name="ID" type="generated_int" variable="id" formparameter="id"/>
+   <column name="OWNERTYPE" type="integer" variable="ownerType" formparameter="ownerType"/>
+   <column name="OWNERID" type="integer" variable="ownerId" formparameter="ownerId"/>
+   <column name="SEGMENT" type="char" variable="segment" formparameter="segment"/>
+   <column name="SONGLENGTH" type="char" variable="songLength" formparameter="songLength"/>
+   <column name="SONG" type="char" variable="song" formparameter="song"/>
+   <column name="ARTIST" type="char" variable="artist" formparameter="artist"/>
+   <column name="DETAILS" type="char" variable="details" formparameter="details"/>
+   <column name="LOCATION" type="char" variable="location" formparameter="location"/>
+</table>
